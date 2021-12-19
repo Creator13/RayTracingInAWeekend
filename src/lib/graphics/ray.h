@@ -1,7 +1,7 @@
 #ifndef RTIOW_RAY_H
 #define RTIOW_RAY_H
 
-#include "math/vec3.h"
+#include <math/vec3.h>
 
 class ray {
 public:
