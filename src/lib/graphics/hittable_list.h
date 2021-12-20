@@ -10,7 +10,7 @@ class hittable_list : public hittable {
 public:
     hittable_list() = default;
 
-    hittable_list(std::shared_ptr<hittable> object) { add(object); }
+    explicit hittable_list(std::shared_ptr<hittable> object) { add(object); }
 
     void clear() { objects.clear(); }
 
